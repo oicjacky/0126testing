@@ -1,0 +1,3 @@
+* 安裝python, jupyter notebook
+* 安裝ubutune
+* 擴充記憶體8G →
