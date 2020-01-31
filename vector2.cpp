@@ -7,22 +7,25 @@ int main(){
 	//接著M：欲查詢同學的座號。
 	int N, M ;
 	
+	cout << "班上有N位同學: ";
 	cin >> N ;
 	
 	int i = 0;
 	int grade[N];
 	while( i < N ){
+		cout << "座號" << i+1 << "成績為: " ;
 		cin >> grade[i] ;
 		i = i + 1;
 	}
 	
 	cout << "find who's grade : " << endl ;
 	while( cin >> M  ){
-		cout << "the grade is " << grade[M-1] << endl ;
 		if( M > N ){
 			cout << "no such student." << endl ;
 			break;
 		}
+		cout << "the grade is " << grade[M-1] << endl ;
+		
 	}
 	
 	return 0;

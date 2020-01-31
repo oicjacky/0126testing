@@ -9,7 +9,8 @@ int main(){
 	
 	int N, T ,i ;
 	int n, t, m ;
-	cout << N << endl;	
+	cout << "default N is " << N << endl;
+	cout << "N customers, T trades: " << endl;		
 	cin >> N >> T ;
 	int money[N] ;
 	
