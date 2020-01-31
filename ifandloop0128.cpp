@@ -75,7 +75,7 @@ int main(){
 	//找質數
 	int input_num , index2 = 1, counter = 0 ;
 	
-	cout << "找質數: " ;
+	cout << "判斷質數: " ;
 	
 	cin >> input_num ; 
 		
